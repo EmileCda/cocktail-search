@@ -1,0 +1,66 @@
+/* -------------------------------------------------------------------- */
+/* reset CSS */
+/* -------------------------------------------------------------------- */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box ;
+}
+/* -------------------------------------------------------------------- */
+/* Common style */
+/* -------------------------------------------------------------------- */
+:root{
+
+	--regular-font :'Poppins', sans-serif;
+	--extrarfont :'Lobster', cursive;
+	--dark :rgb(85, 13, 153);
+	--light : white;
+	--darkGrey :rgb(114, 85, 141);
+	--lightGrey :rgb(162, 154, 168);
+
+}
+body {
+	font-family: var(--regular-font);
+    min-width: 100vw;
+    min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+    align-items: center;
+	background-color: var(--dark) ;
+}
+
+.logo-title h1 {
+	font-family: var(--extra-font);
+}
+/* -------------------------------------------------------------------- */
+/* Common main */
+/* -------------------------------------------------------------------- */
+.main-container{
+    max-width: 100%;
+    max-height: 100%;
+}
+.search-and-logo{
+    max-width: 100%;
+    max-height: 100%;
+}
+/* --------------------------------------------------------------------- */
+/* logo splash */
+/* --------------------------------------------------------------------- */
+.logo{
+	align-items:center ;
+	border-radius: 50%;
+	background-color:var(--light);
+	display: flex;
+	justify-content: center;
+	padding:  30px 20px;
+} 
+/* --------------------------------------------------------------------- */
+/* title logo splash */
+/* --------------------------------------------------------------------- */
+
+.logo h1{
+	color: var(--dark);
+	text-align: center;
+	transform: rotate( -10deg);
+}

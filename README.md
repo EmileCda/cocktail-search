@@ -19,3 +19,17 @@ Git Flow : Exercice
 
  - [Les îcones](https://fontawesome.com/)
  - [Polices d'écriture : lobster, poppins](https://fonts.google.com/)
+
+
+ ## pour initialiser le projet 
+
+ ```bash
+npm i
+
+ ```
+
+  ## pour executer
+
+```bash
+npx parcel index.html
+ ```
